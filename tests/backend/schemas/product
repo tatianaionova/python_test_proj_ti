@@ -1,0 +1,12 @@
+valid_schema = {
+    "type": "object",
+    "properties": {
+        "products": {
+            "image" : {"type" : "string"},
+            "name" : {"type" : "string"},
+            "price" : {"type" : "number"}
+            },
+        "total_count" : {"type" : "number"},
+    },
+    "required": ["products"]
+}
